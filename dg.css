@@ -1,0 +1,49 @@
+.boxcenter{
+   text-align: center;
+   height: 1000px;
+    width: 350;
+    margin: 0px auto;
+    background-color: aqua;
+}
+img{
+   width: 100%;
+   height: 400px;
+   
+}
+.form-group{
+    margin: 20px 0px;
+}
+.form-group label{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.form-button{
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: white;
+    color: orangered;
+    box-shadow: 0px 0px 20px blue;
+}
+.form-button:hover{
+    color: blue;
+    box-shadow: inset 0px 0px 20px orangered;
+}
+.form-button:disabled{
+    color: darkgray;
+    box-shadow: inset 0px 0px 20px gray;
+}
+h1{
+    font-weight: bolder; 
+    color: red;
+}
+footer>{
+    width: 100%;
+}
+footer>img{
+    width: 1500px;
+    height: 300px;
+    width: 100%;
+}
